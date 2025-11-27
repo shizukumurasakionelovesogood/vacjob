@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "telegram-bot"
+version = "1.0.0"
+description = "Telegram bot for Amazon job vacancy"
+authors = ["Developer <developer@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiogram = "3.1.1"
+python-dotenv = "1.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
